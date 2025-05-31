@@ -23,6 +23,9 @@ function Navbar() {
           <ScrollLink to="about" smooth={true} duration={500} className="cursor-pointer hover:text-pink-400">About</ScrollLink>
           <ScrollLink to="project" smooth={true} duration={500} className="cursor-pointer hover:text-pink-400">Project</ScrollLink>
           <ScrollLink to="services" smooth={true} duration={500} className="cursor-pointer hover:text-pink-400">Services</ScrollLink>
+         <ScrollLink to="team" smooth={true} duration={500} className="cursor-pointer hover:text-pink-400">Our Team</ScrollLink>
+         <ScrollLink to="testi" smooth={true} duration={500} className="cursor-pointer hover:text-pink-400">Testimonails</ScrollLink>
+        
           <ScrollLink to="contact" smooth={true} duration={500} className="cursor-pointer hover:text-pink-400">Contact</ScrollLink>
         </div>
 
@@ -38,8 +41,9 @@ function Navbar() {
           <div className="fixed top-16 left-0 w-full h-full bg-[#161616] text-white p-4 flex flex-col gap-6 z-50 md:hidden">
             <ScrollLink to="home" smooth={true} duration={500} className="cursor-pointer hover:text-green-400" onClick={handleLinkClick}>Home</ScrollLink>
             <ScrollLink to="about" smooth={true} duration={500} className="cursor-pointer hover:text-green-400" onClick={handleLinkClick}>About</ScrollLink>
-            <ScrollLink to="project" smooth={true} duration={500} className="cursor-pointer hover:text-green-400" onClick={handleLinkClick}>Project</ScrollLink>
             <ScrollLink to="services" smooth={true} duration={500} className="cursor-pointer hover:text-green-400" onClick={handleLinkClick}>Services</ScrollLink>
+            <ScrollLink to="project" smooth={true} duration={500} className="cursor-pointer hover:text-green-400" onClick={handleLinkClick}>Project</ScrollLink>
+           
             <ScrollLink to="contact" smooth={true} duration={500} className="cursor-pointer hover:text-green-400" onClick={handleLinkClick}>Contact</ScrollLink>
 
             <button className="mt-6 bg-green-500 text-white py-2 rounded-full hover:bg-green-600 text-sm font-semibold w-full">

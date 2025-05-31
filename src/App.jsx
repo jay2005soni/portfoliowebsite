@@ -59,11 +59,11 @@ const App = () => {
 
       {/* Tech Cards */}
       <section className="bg-[#161616] p-6">
-        <div className="flex flex-wrap justify-center gap-4">
+        <div className="flex flex-wrap justify-center gap-3">
           {cards.map((card) => (
             <div
               key={card.id}
-              className={`w-24 h-24 bg-[#262626] rounded-lg shadow-md flex items-center justify-center text-${card.color ?? 'pink-700'} text-sm font-semibold`}
+              className={`w-24 h-16 bg-[#262626] rounded-lg shadow-md flex items-center justify-center text-${card.color ?? 'pink-700'} text-sm font-semibold`}
             >
               {card.name}
             </div>
@@ -77,7 +77,7 @@ const App = () => {
       <section id="project"><Project /></section>
       <section><HowWeWork /></section>
       <section id="team"><TeamSection /></section>
-      <section><Testimonails /></section>
+      <section id = "testi"><Testimonails /></section>
       <section id="contact"><Contact /></section>
       <section><Location /></section>
       <Footer />
